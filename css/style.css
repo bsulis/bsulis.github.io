@@ -70,7 +70,7 @@ footer {
 }
 
 .ligne-image-texte img {
-    max-height: 100px; /* ajuste selon tes besoins */
+    max-height: 20px; /* ajuste selon tes besoins */
     height: auto;
     width: auto;
 }
