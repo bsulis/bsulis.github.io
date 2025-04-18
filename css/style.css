@@ -45,7 +45,7 @@ footer {
 
 .colonne-gauche img {
     width: auto;
-    height: 300px; /* Garde les proportions */
+    height: 30px; /* Garde les proportions */
     object-fit: contain; /* Facultatif : assure que l’image est bien contenue */
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
