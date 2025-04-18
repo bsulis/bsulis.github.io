@@ -27,3 +27,36 @@ footer {
     padding: 1rem;
     margin-top: 2rem;
 }
+
+.deux-colonnes {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.colonne-gauche,
+.colonne-droite {
+    flex: 1 1 300px;
+    max-width: 500px;
+}
+
+.colonne-gauche img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.colonne-droite h2 {
+    margin-top: 0;
+}
+
+@media (max-width: 768px) {
+    .deux-colonnes {
+        flex-direction: column;
+        text-align: center;
+    }
+}
