@@ -31,7 +31,7 @@ footer {
 .deux-colonnes {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: top;
     justify-content: center;
     gap: 1rem;
     padding: 1rem;
