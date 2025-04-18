@@ -81,11 +81,6 @@ footer {
 }
 
 .lien-sans-couleur {
-    color: inherit;
-    text-decoration: none;
-}
-
-.lien-sans-couleur:hover {
-    color: inherit;
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
