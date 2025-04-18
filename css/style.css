@@ -46,7 +46,7 @@ footer {
 .colonne-gauche img {
     width: 100%;
     height: auto; /* Garde les proportions */
-    /* max-height: 200px;  Réduit la hauteur maximum */
+    max-height: 300px; /* Réduit la hauteur maximum */
     object-fit: contain; /* Facultatif : assure que l’image est bien contenue */
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
