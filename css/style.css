@@ -62,3 +62,15 @@ footer {
         text-align: center;
     }
 }
+
+.ligne-image-texte {
+    display: flex;
+    align-items: center; /* aligne verticalement l’image et le texte */
+    gap: 1rem; /* espace entre image et texte */
+}
+
+.ligne-image-texte img {
+    max-height: 100px; /* ajuste selon tes besoins */
+    height: auto;
+    width: auto;
+}
