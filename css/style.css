@@ -28,7 +28,7 @@ footer {
     margin-top: 2rem;
 }
 
-.deux-colonnes {
+.two-columns {
     display: flex;
     flex-wrap: wrap;
     align-items: top;
@@ -37,13 +37,13 @@ footer {
     padding: 1rem;
 }
 
-.colonne-gauche,
-.colonne-droite {
+.left-column,
+.right-column {
     flex: 1 1 300px;
     max-width: 500px;
 }
 
-.colonne-gauche img {
+.left-column img {
     width: auto;
     height: auto; /* Garde les proportions */
     max-height: 300px; /* Réduit la hauteur maximum */
@@ -52,35 +52,35 @@ footer {
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-.colonne-droite h2 {
+.right-column h2 {
     margin-top: 0;
 }
 
 @media (max-width: 600px) {
-    .deux-colonnes {
+    .two-columns {
         flex-direction: column;
         text-align: center;
     }
 }
 
-.ligne-image-texte {
+.text-row-image {
     display: flex;
     align-items: center; /* aligne verticalement l’image et le texte */
     gap: 1rem; /* espace entre image et texte */
 }
 
-.ligne-image-texte img {
+.text-row-image img {
     max-height: 20px; /* ajuste selon tes besoins */
     height: auto;
     width: auto;
 }
 
-.lien-sans-soulignement {
+.link-without-underlining {
     text-decoration: none;
     color: rgb(0, 89, 255); /* Facultatif : tu peux changer la couleur aussi */
 }
 
-.lien-sans-couleur {
+.link-without-color {
     color: rgb(0, 0, 0);
     text-decoration: none;
 }
