@@ -63,13 +63,13 @@ footer {
     }
 }
 
-.text-row-image {
+.text-line-image {
     display: flex;
     align-items: center; /* aligne verticalement l’image et le texte */
     gap: 1rem; /* espace entre image et texte */
 }
 
-.text-row-image img {
+.text-line-image img {
     max-height: 20px; /* ajuste selon tes besoins */
     height: auto;
     width: auto;
